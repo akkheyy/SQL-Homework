@@ -140,7 +140,7 @@ JOIN inventory ON rental.inventory_id = inventory.inventory_id
 JOIN store ON inventory.store_id = store.store_id
 GROUP BY store.store_id;
 
--- Second answer to 7f. Slightly annoyed I forgot about views until I starting answering 8a lol
+-- Second answer to 7f. Slightly annoyed I forgot about views until I answered 8a lol
 SELECT * FROM sales_by_store;
 
 -- * 7g. Write a query to display for each store its store ID, city, and country.
